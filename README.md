@@ -15,10 +15,10 @@ Using Machine Learning Tools in Python to separate background noise to possible 
 * [Conclusion](#conclusion)
 
 # Introduction
-<b>Dark Matter</b> (DM) is still an open problem in modern Physics. In order to study what DM is, it is necessary to take observations and ensure that the astrophysical data can be sorted out, separating real usable data from background noise. This projects uses Python and Machine Learning in order to classify those events.
+<b>Dark Matter</b> (DM) is still an open problem in modern Physics. In order to study what DM is, it is necessary to make observations (both for direct and indirect detection) and ensure that the astrophysical data can be sorted out, separating real usable data from background noise. This projects uses Python and Machine Learning in order to classify those events.
 
 # Project Description 
-This project investigates the classification of events in dark matter searches, aiming to distinguish potential dark matter signals from astrophysical or instrumental background using supervised machine learning. Synthetic datasets are generated based on simplified but physically motivated models of observable quantities such as energy, direction, velocity, and position, and these features are used to train and evaluate classification algorithms. The workflow includes data simulation, exploratory analysis, model training, and statistical performance assessment, with an emphasis on interpretability and physical consistency to understand which observables drive the classification and under what conditions the method succeeds or fails.
+This project investigates the classification of events in dark matter searches, aiming to distinguish potential dark matter signals from astrophysical or instrumental background using supervised machine learning. Synthetic datasets are generated based on simplified but physically motivated models of observable quantities such as energy, direction, velocity, and position, and these features are used to train and evaluate classification algorithms. The workflow includes data simulation, exploratory analysis, model training, and statistical performance assessment, with an emphasis on interpretability and physical consistency to understand which observables drive the classification and under what conditions the method succeeds or fails.  Important note: here, it is considered that DM has a mass of $50GeV$, an acceptable value considering gamma rays indirect detection, and velocities are in $km/s$. 
 
 # Adressed topics
 - Dark matter detection
